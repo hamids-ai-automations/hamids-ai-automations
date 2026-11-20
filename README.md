@@ -52,6 +52,12 @@ Based in Lahore, Pakistan · Portfolio: [marvis.web.app](https://marvis.web.app/
 - An autonomous GitHub maintenance engine: issue triage, PR quality gates, duplicate detection, release notes — with persistent state so work resumes cleanly after interruption.
 - Demand-validated open-source tooling for AI agent operations (checkpointing, observability, permission auditing).
 
+## Open-source contributions
+
+- **50 merged pull requests across 25 upstream projects** (verified 2026-11-20) — MCP tooling, Python libraries, agent runtimes and developer CLIs, including `vibgrate/cli`, `pygrpc/pygrpc-native`, `supabase-py`, `trafilatura` and `mcp-memory-service`.
+- **60 pull requests open** for maintainer review.
+- Each contribution ships with a reproducible case or test, and stays inside the project's contribution guidelines.
+
 ## Skills — honest status
 
 **Demonstrated in shipped repositories** — Python development, MCP server development, API integration, agent evaluation harnesses, technical SEO automation, conversion tracking, CLI tooling, CI setup.
