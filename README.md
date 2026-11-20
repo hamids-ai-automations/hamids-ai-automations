@@ -2,11 +2,15 @@
 
 # Muhammad Hamid
 
-**AI Automation Engineer · Python · MCP · RAG · Agent Evals**
+**Forward Deployed AI Engineer · Agentic Systems · MCP · Python · Agent Evals**
 
-I build tool-using AI agents and the plumbing that makes them trustworthy: permissioned tool
+I build tool-using AI agents and the plumbing that makes them trustworthy — permissioned tool
 registries, human approval gates, full run traces, cost accounting, and eval suites that prove the
-agent is not making numbers up. Then I ship the same class of fixes back upstream.
+agent is not making numbers up — then deploy them against real customer systems.
+
+Eight years running growth and marketing operations taught me the part most agent builders skip:
+the integration has to survive contact with production data. So I ship the same discipline on both
+sides — agent platforms that hold up under review, and upstream bug fixes with regression tests.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-abouthamid.web.app-0b7285?style=for-the-badge&logo=googlechrome&logoColor=white)](https://abouthamid.web.app/)
 [![Resume](https://img.shields.io/badge/Resume-Interactive-2ea44f?style=for-the-badge&logo=readdotcv&logoColor=white)](https://hamid-resume.web.app/)
@@ -17,7 +21,8 @@ agent is not making numbers up. Then I ship the same class of fixes back upstrea
 ![Open PRs](https://img.shields.io/badge/open%20PRs-60-0969da?style=flat-square)
 ![Upstream projects](https://img.shields.io/badge/upstream%20projects-25-6f42c1?style=flat-square)
 ![Public repos](https://img.shields.io/badge/public%20repos-82-6e7781?style=flat-square)
-![Open to work](https://img.shields.io/badge/open%20to-AI%20automation%20contracts-8250df?style=flat-square)
+![Open to work](https://img.shields.io/badge/open%20to-forward--deployed%20%2F%20agentic%20roles-8250df?style=flat-square)
+![Location](https://img.shields.io/badge/based%20in-Lahore%2C%20Pakistan%20%C2%B7%20remote%20async-6e7781?style=flat-square)
 
 </div>
 
@@ -34,6 +39,21 @@ agent is not making numbers up. Then I ship the same class of fixes back upstrea
 | **Deployment** | FastAPI services, Docker / Compose, Firebase & Cloud Functions, GitHub Actions CI with coverage gates, zero-API-key demo modes | [searchpulse-ai](https://github.com/hamid-digitalmarketer/searchpulse-ai), [conversionbridge](https://github.com/hamid-digitalmarketer/conversionbridge) |
 
 **Python is the default language. TypeScript where the surfaces are MCP servers and browser tooling.**
+
+---
+
+## How I work with a team (forward-deployed model)
+
+| Phase | What I do | What you get |
+|---|---|---|
+| **1. Discovery** | Sit in your actual workflow, not a requirements doc. Pull the real data shapes, permissions and failure modes | A scoped integration plan with the risky edges named up front |
+| **2. Build** | Ship the agent inside your stack — your auth, your APIs, your data boundaries. Read-only by default | Working code in a branch, not a slide deck |
+| **3. Prove** | Eval suite with labeled cases, cost per run, trace of every tool call | A written answer to "can we trust it in production?" |
+| **4. Handover** | Documented runbook, deployment config, approval gates wired to your stakeholders | Your team operates it without me |
+
+This is the same loop I ran for eight years on revenue systems — attribution gateways, conversion
+pipelines, CRM sync, catalogue-scale automation — except the payload is now LLM calls instead of
+form posts.
 
 ---
 
@@ -72,8 +92,12 @@ agent is not making numbers up. Then I ship the same class of fixes back upstrea
 ## Upstream contributions
 
 **50 merged pull requests across 25 upstream projects**, 60 more in review. Every fix ships with a
-regression test that reproduces the defect before it is patched — no drive-by formatting PRs, no
-badge farming.
+regression test that reproduces the defect before it is patched — no drive-by formatting, no badge
+farming.
+
+The 60 in review include a single coordinated batch of 53 locale data corrections in
+[dayjs](https://github.com/iamkun/dayjs) (regional `yearStart` values that disagree with CLDR), filed
+as one defect with one patch per affected locale rather than one vague "fix locales" PR.
 
 | Project | Merged | What the fixes covered |
 |---|:---:|---|
@@ -186,3 +210,4 @@ them safe to run:
 📬 [WhatsApp +92 316 7417135](https://wa.me/923167417135) · [abouthamid.web.app](https://abouthamid.web.app/) · [LinkedIn](https://www.linkedin.com/in/muhammad-hamid-digital-marketing/)
 
 <sub>Lahore, Pakistan · Open to AI automation contracts and engineering roles · All GitHub metrics verified from the API on 2026-11-20</sub>
+*（内容由AI生成，仅供参考）*
