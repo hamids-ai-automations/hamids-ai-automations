@@ -30,6 +30,7 @@ Based in Lahore, Pakistan · Portfolio: [marvis.web.app](https://marvis.web.app/
 
 | Project | What it does | Stack |
 | --- | --- | --- |
+| [gemini-agent-automation-toolkit](https://github.com/hamids-ai-automations/gemini-agent-automation-toolkit) | Toolkit for reliable Gemini agents: validated tool calling, Pydantic structured output, single-use approval gates, retries with backoff, multi-step workflows and redacted logs. MIT, 85 offline tests | Python, google-genai, Pydantic v2 |
 | [shopify-growth-mcp](https://github.com/hamids-ai-automations/shopify-growth-mcp) | MCP server with 61 tools for Shopify store operations: SEO and GEO audits, deterministic analytics, inventory intelligence, feed quality, approval-gated marketing workflows | TypeScript, MCP, Shopify GraphQL |
 | [ai-agent-testing-lab](https://github.com/hamids-ai-automations/ai-agent-testing-lab) | Reliability and evaluation harness for AI agents: labelled suites, CI integration, accuracy/calibration/cost/latency reporting | Python, pytest, CI |
 | [ai-marketing-shared](https://github.com/hamids-ai-automations/ai-marketing-shared) | Shared foundation for agents: Pydantic schemas, provider abstraction, tracing, cost controls, eval harness | Python, Pydantic v2 |
